@@ -16,12 +16,14 @@
     <%= form.text_field :photo, id: :pin_photo %>
   </div>
 
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_field :description, id: :pin_description %>
+  <div class="form-group">
+    <div class="field">
+      <%= form.label :description %>
+      <%= form.text_field :description, id: :pin_description %>
+    </div>
   </div>
 
-  <div class="actions">
+  <div class="actions" class="form-group">
     <%= form.submit %>
   </div>
 <% end %>
